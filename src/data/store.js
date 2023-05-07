@@ -1,12 +1,10 @@
 /* eslint-disable no-console */
-import Vue from 'vue'
-import Vuex from 'vuex'
+
+import { createStore } from 'vuex'
 import armory from "./armory"
 
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
+export default createStore({
   state: {
     dungeons: [
       //{ id: 13309, name: "De Other Side" },

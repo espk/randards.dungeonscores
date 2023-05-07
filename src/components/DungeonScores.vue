@@ -29,18 +29,18 @@
         <thead class="head-affix">
           <tr>
             <th style="border-right: 1px solid #555;"></th>
-            <template v-for="item in range">
-              <th v-bind:key="item + 'fortified'">fortified</th>
-              <th v-bind:key="item + 'tyrannical'">tyrannical</th>
+            <template v-for="item in range" v-bind:key="item">
+              <th>fortified</th>
+              <th>tyrannical</th>
             </template>
           </tr>
         </thead>
         <tbody v-for="dungeon in dungeons" v-bind:key="dungeon.id">
           <tr>
             <td class="dungeon-name" style="border-right: 1px solid #555;">{{ dungeon.name }}</td>
-            <template v-for="item in range">
-              <td v-bind:key="item + 'fortified'" :class="getPercentile(updatedScoreFortified(dungeon.id, item))" style="background-color: #222; font-weight: bold">{{ updatedScoreFortified(dungeon.id, item) }}</td>
-              <td v-bind:key="item + 'tyrannical'" :class="getPercentile(updatedScoreTyrannical(dungeon.id, item))" style="background-color: #222; font-weight: bold; border-right: 1px solid #555;">{{ updatedScoreTyrannical(dungeon.id, item) }}</td>
+            <template v-for="item in range" v-bind:key="item">
+              <td :class="getPercentile(updatedScoreFortified(dungeon.id, item))" style="background-color: #222; font-weight: bold">{{ updatedScoreFortified(dungeon.id, item) }}</td>
+              <td :class="getPercentile(updatedScoreTyrannical(dungeon.id, item))" style="background-color: #222; font-weight: bold; border-right: 1px solid #555;">{{ updatedScoreTyrannical(dungeon.id, item) }}</td>
             </template>
           </tr>
         </tbody>
