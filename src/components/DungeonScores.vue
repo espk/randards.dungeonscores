@@ -79,7 +79,7 @@ export default {
     addCharacter: function () {
       this.$store.dispatch("loadCharacter", {
         character: this.character,
-        realm: this.realm,
+        realm: this.realm
       });
 
       this.character = "";

@@ -25,7 +25,7 @@ export default createStore({
       { id: 999999, name: "Return to Karazhan: Upper" },
       { id: 1000001, name: "Tazavesh: So'leah's Gambit" },
       { id: 1000000, name: "Tazavesh: Streets of Wonder" },
-      */
+      
 
       { id: 14032, name: "Algeth'ar Academy" },
       { id: 13954, name: "The Azure Vault" },
@@ -35,6 +35,16 @@ export default createStore({
       { id: 14063, name: "Ruby Life Pools" },
       { id: 6932, name: "Shadowmoon Burial Grounds" },
       { id: 5965, name: "Temple of the Jade Serpent" },
+      */
+
+      { id: 13991, name: "Brackenhide Hollow", fortified: 0, tyrannical: 0  },
+      { id: 9164, name: "Freehold", fortified: 0, tyrannical: 0  },
+      { id: 14082, name: "Halls of Infusion", fortified: 0, tyrannical: 0  },
+      { id: 7546, name: "Neltharion's Lair", fortified: 0, tyrannical: 0  },
+      { id: 14011, name: "Neltharus", fortified: 0, tyrannical: 0  },
+      { id: 13968, name: "Uldaman: Legacy of Tyr", fortified: 0, tyrannical: 0  },
+      { id: 9391, name: "The Underrot", fortified: 0, tyrannical: 0  },
+      { id: 5035, name: "The Vortex Pinnacle", fortified: 0, tyrannical: 0  },
 
     ],
 
@@ -149,7 +159,7 @@ const helpers = {
         { id: 800002, name: "Mechagon Workshop", fortified: 0, tyrannical: 0  },
         { id: 999998, name: "Return to Karazhan: Lower", fortified: 0, tyrannical: 0  },
         { id: 999999, name: "Return to Karazhan: Upper", fortified: 0, tyrannical: 0  },
-        */
+        
 
         { id: 14032, name: "Algeth'ar Academy", fortified: 0, tyrannical: 0  },
         { id: 13954, name: "The Azure Vault", fortified: 0, tyrannical: 0  },
@@ -159,6 +169,16 @@ const helpers = {
         { id: 14063, name: "Ruby Life Pools", fortified: 0, tyrannical: 0  },
         { id: 6932, name: "Shadowmoon Burial Grounds", fortified: 0, tyrannical: 0  },
         { id: 5965, name: "Temple of the Jade Serpent", fortified: 0, tyrannical: 0  },
+        */
+
+        { id: 13991, name: "Brackenhide Hollow", fortified: 0, tyrannical: 0  },
+        { id: 9164, name: "Freehold", fortified: 0, tyrannical: 0  },
+        { id: 14082, name: "Halls of Infusion", fortified: 0, tyrannical: 0  },
+        { id: 7546, name: "Neltharion's Lair", fortified: 0, tyrannical: 0  },
+        { id: 14011, name: "Neltharus", fortified: 0, tyrannical: 0  },
+        { id: 13968, name: "Uldaman: Legacy of Tyr", fortified: 0, tyrannical: 0  },
+        { id: 9391, name: "The Underrot", fortified: 0, tyrannical: 0  },
+        { id: 5035, name: "The Vortex Pinnacle", fortified: 0, tyrannical: 0  },
       ]
     }
 
