@@ -45,7 +45,7 @@ export default createStore({
       { id: 13968, name: "Uldaman: Legacy of Tyr", fortified: 0, tyrannical: 0  },
       { id: 9391, name: "The Underrot", fortified: 0, tyrannical: 0  },
       { id: 5035, name: "The Vortex Pinnacle", fortified: 0, tyrannical: 0  },
-      */
+      
 
       { id: 9028, name: "Atal'dazar", fortified: 0, tyrannical: 0  },
       { id: 7805, name: "Black Rook Hold", fortified: 0, tyrannical: 0  },
@@ -55,6 +55,16 @@ export default createStore({
       { id: 7109, name: "Everbloom", fortified: 0, tyrannical: 0  },
       { id: 4738, name: "Throne of the Tides", fortified: 0, tyrannical: 0  },
       { id: 9424, name: "Waycrest Manor", fortified: 0, tyrannical: 0  },
+      */
+
+      { id: 14032, name: "Algeth'ar Academy", fortified: 0, tyrannical: 0  },
+      { id: 13954, name: "The Azure Vault", fortified: 0, tyrannical: 0  },
+      { id: 13991, name: "Brackenhide Hollow", fortified: 0, tyrannical: 0  },
+      { id: 14082, name: "Halls of Infusion", fortified: 0, tyrannical: 0  },
+      { id: 14011, name: "Neltharus", fortified: 0, tyrannical: 0  },
+      { id: 13982, name: "The Nokhud Offensive", fortified: 0, tyrannical: 0  },
+      { id: 14063, name: "Ruby Life Pools", fortified: 0, tyrannical: 0  },
+      { id: 13968, name: "Uldaman: Legacy of Tyr", fortified: 0, tyrannical: 0  },
 
     ],
 
@@ -63,7 +73,7 @@ export default createStore({
 
     currentCharacter: {},
 
-    range: [15, 16, 17, 18, 19],
+    range: [8, 9, 10, 11, 12],
     loaded: false
   },
 
@@ -189,7 +199,7 @@ const helpers = {
         { id: 13968, name: "Uldaman: Legacy of Tyr", fortified: 0, tyrannical: 0  },
         { id: 9391, name: "The Underrot", fortified: 0, tyrannical: 0  },
         { id: 5035, name: "The Vortex Pinnacle", fortified: 0, tyrannical: 0  },
-        */
+        
 
         { id: 9028, name: "Atal'dazar", fortified: 0, tyrannical: 0  },
         { id: 7805, name: "Black Rook Hold", fortified: 0, tyrannical: 0  },
@@ -199,6 +209,17 @@ const helpers = {
         { id: 7109, name: "Everbloom", fortified: 0, tyrannical: 0  },
         { id: 4738, name: "Throne of the Tides", fortified: 0, tyrannical: 0  },
         { id: 9424, name: "Waycrest Manor", fortified: 0, tyrannical: 0  },
+        */
+
+        { id: 14032, name: "Algeth'ar Academy", fortified: 0, tyrannical: 0  },
+        { id: 13954, name: "The Azure Vault", fortified: 0, tyrannical: 0  },
+        { id: 13991, name: "Brackenhide Hollow", fortified: 0, tyrannical: 0  },
+        { id: 14082, name: "Halls of Infusion", fortified: 0, tyrannical: 0  },
+        { id: 14011, name: "Neltharus", fortified: 0, tyrannical: 0  },
+        { id: 13982, name: "The Nokhud Offensive", fortified: 0, tyrannical: 0  },
+        { id: 14063, name: "Ruby Life Pools", fortified: 0, tyrannical: 0  },
+        { id: 13968, name: "Uldaman: Legacy of Tyr", fortified: 0, tyrannical: 0  },
+
       ]
     }
 
